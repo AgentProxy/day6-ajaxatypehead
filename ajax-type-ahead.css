@@ -1,0 +1,56 @@
+
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+.hl{
+    color: rgb(253, 214, 40);
+}
+
+h1{
+    font-family: 'Arvo';
+    font-weight: bold;
+    color: rgb(255, 230, 0);
+}
+
+body{
+    background-image: url("background.jpg");
+    background-size: 100%;
+    background-position: 0% 80%;
+}
+
+.car-searcher{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    margin-top: 10%;
+}
+
+.search{
+    position: relative;
+    border: rgb(100, 96, 96) solid 4px;
+    width: 30%;
+    height: 10%;
+    border-radius: 4%;
+    
+}
+
+.suggestions{
+    list-style-type: none;
+    border: black solid 3px;
+    width: 29%;;
+    margin-top: 0;
+    border-top: 0;
+    background-color: white;
+    padding: 0;
+}
+
+.suggestions > li{
+    border-bottom: rgb(212, 212, 212) solid 1px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+/* .suggestions */
